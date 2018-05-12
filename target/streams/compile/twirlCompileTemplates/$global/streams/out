@@ -1,0 +1,4 @@
+[0m[[31merror[0m] [0m/home/dan/play-silhouette-credentials-seed-master/app/views/templates/default.scala.html:46: Expected ')' but found 'EOF'[0m
+[0m[[31merror[0m] [0m@main(title, navbarContent, styles, scripts, modals)(content)[0m
+[0m[[31merror[0m] [0m                                                             ^[0m
+[0m[[31merror[0m] [0m(compile:[31mtwirlCompileTemplates[0m) Twirl compilation failed[0m

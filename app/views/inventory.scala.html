@@ -1,0 +1,39 @@
+@()(implicit user: User, messages: Messages)
+
+@import controllers.routes
+
+@views.html.templates.logged(title = "Inventory", tab = "Inventory") {
+
+    <hr>
+	<div class="well">
+	
+	<h1 class="text-center">Our Inventory this month</h1>
+	
+	<h5 class="text-center"> We have added 9,400 memes online this month, resulting to 17, 000,000 views</h5>
+	<br>
+
+	<table class="table table-striped table-condensed">
+
+		<th> Name of meme</th>
+		<th> Amount </th>
+
+        <tr>
+			<td>Memes of love</td>
+			<td> 1,800</td>
+		</tr>
+		<tr>
+			<td>Robert mugabe quotes</td>
+			<td> 3,600</td>
+		</tr>
+		<tr>
+			<td>Funny Videos</td>
+			<td>2,000</td>
+		</tr>
+		<tr>
+			<td>Street 'wisdom'</td>
+			<td>2,000</td>
+		</tr>
+	</table>
+</div>
+
+}

@@ -1,0 +1,48 @@
+@()(implicit user: User, messages: Messages)
+
+@import controllers.routes
+
+@views.html.templates.logged(title = "New Customers", tab = "New Customers") {
+	<hr>
+	
+	<div class="well">
+	<h1 class="text-center">Our new customers</h1>
+	<br>
+
+	
+	<table class="table table-striped table-condensed">
+
+		<th>Customer</th>
+		<th>Location</th>
+		<th>Since</th>
+
+        <tr>
+			<td>Teldron athletics</td>
+			<td>Sydney Australia</td>
+			<td> 03rd May 2018</td>
+		</tr>
+		<tr>
+			<td>DCOS:Mesos</td>
+			<td>United States </td>
+			<td>05th May 2018</td>
+		</tr>
+		<tr>
+			<td>Confluent</td>
+			<td>Swissland</td>
+			<td>10th May 2018 </td>
+		</tr>
+		<tr>
+			<td>XIVELY</td>
+			<td>United Kingdom</td>
+			<td>15th May  2018</td>
+		</tr>
+		<tr>
+			<td>Glaucon Analytics</td>
+			<td>Kenya</td>
+			<td>20th May 2018</td>
+		</tr>
+	</table>
+
+	</div>
+
+}
